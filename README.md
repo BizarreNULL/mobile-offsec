@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/BizarreNULL/mobile-offsec/">
+<a href="https://github.com/6a6f6a6f/mobile-offsec/mobile-offsec/">
   <img src="./resources/logo.png" width="350" />
 </a>
 </p>
@@ -11,9 +11,9 @@
   My personal <i>repo</i> to automate some stuffs for pentesting
   <br/><br/>
   <a href="http://www.wtfpl.net/txt/copying/">
-    <img alt="WTFPL License" src="https://img.shields.io/github/license/BizarreNULL/mobile-offsec" />
+    <img alt="WTFPL License" src="https://img.shields.io/github/license/6a6f6a6f/mobile-offsec" />
   </a>
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/BizarreNULL/mobile-offsec">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/6a6f6a6f/mobile-offsec">
 </p>
 
 ## Why?
@@ -44,10 +44,10 @@ bash <(curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/6a
 
 ## Directory Structure
 
-Actually I don't have this at this time, but I think is self-explanatory the name of every folder, if you have need a help to understood my codes, feel free to shot a [issue](https://github.com/BizarreNULL/mobile-offsec/issues).
+Actually I don't have this at this time, but I think is self-explanatory the name of every folder, if you have need a help to understood my codes, feel free to shot a [issue](https://github.com/6a6f6a6f/mobile-offsec/mobile-offsec/issues).
 
 
 
 ## Licenses
 
-[Mobile Application Penetration Testing](https://github.com/BizarreNULL/mobile-offsec) project logo and all other *repo* icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com.</a>
+[Mobile Application Penetration Testing](https://github.com/6a6f6a6f/mobile-offsec/mobile-offsec) project logo and all other *repo* icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com.</a>
