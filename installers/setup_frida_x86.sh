@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# Copyright (C) 2020 BizarreNULL <jonas.uliana@passwd.com.br>
+# Copyright (C) 2020 6a6f6a6f <jonas.uliana@passwd.com.br>
 
 # Project:     mobile-offsec
-# Repository:  https://github.com/BizarreNULL/mobile-offsec
+# Repository:  https://github.com/6a6f6a6f/mobile-offsec
 # License:     WTFPL
 # Description: Install frida-server on remove
 
