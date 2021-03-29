@@ -11,5 +11,5 @@ setTimeout(function () {
         catch (err) {
             console.error(err);
         }
-    }
+    });
 }, 0);
