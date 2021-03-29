@@ -9,7 +9,7 @@
 
 ADB_DEVICE="emulator-5554"
 
-wget "https://raw.githubusercontent.com/6a6f6a6f/mobile-offsec/main/certificates/burp_suite_default.crt" 2>/dev/null || true
+wget --quiet "https://raw.githubusercontent.com/6a6f6a6f/mobile-offsec/main/certificates/burp_suite_default.crt" 2>/dev/null || true
 CERTIFICATE_PATH="./burp_suite_default.crt"
 
 if [ "$(adb -s "$ADB_DEVICE" shell getprop ro.build.version.sdk)" != "28" ];then
