@@ -7,9 +7,10 @@
 # License:     WTFPL
 # Description: Install .CRT cert on AVD as system authority
 
-# Change the bellow values with you need
 ADB_DEVICE="emulator-5554"
-CERTIFICATE_PATH="../certificates/burp_suite_default.crt"
+
+wget "https://raw.githubusercontent.com/6a6f6a6f/mobile-offsec/main/certificates/burp_suite_default.crt"
+CERTIFICATE_PATH="./burp_suite_default.crt"
 
 if [ "$(adb -s "$ADB_DEVICE" shell getprop ro.build.version.sdk)" != "28" ];then
     echo "[!] AVD image must be Android 9!"
@@ -37,5 +38,6 @@ adb -s "$ADB_DEVICE" shell "su 0 chmod 644 /system/etc/security/cacerts/$FILENAM
 adb unroot
 sleep 5
 rm "$FILENAME" 2>/dev/null
+rm "$CERTIFICATE_PATH" 2>/dev/null
 
 echo "[+] Done, check if the cert is visible in settings."
