@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/6a6f6a6f/mobile-offsec/mobile-offsec/">
+<a href="https://github.com/6a6f6a6f/mobile-offsec/">
   <img src="./resources/logo.png" width="350" />
 </a>
 </p>
@@ -44,7 +44,7 @@ bash <(curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/6a
 
 ## Directory Structure
 
-Actually I don't have this at this time, but I think is self-explanatory the name of every folder, if you have need a help to understood my codes, feel free to shot a [issue](https://github.com/6a6f6a6f/mobile-offsec/mobile-offsec/issues).
+Actually I don't have this at this time, but I think is self-explanatory the name of every folder, if you have need a help to understood my codes, feel free to shot a [issue](https://github.com/6a6f6a6f/mobile-offsec/issues).
 
 
 
