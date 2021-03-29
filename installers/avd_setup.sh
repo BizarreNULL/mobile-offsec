@@ -9,7 +9,7 @@
 
 ADB_DEVICE="emulator-5554"
 
-wget --quiet "https://raw.githubusercontent.com/6a6f6a6f/mobile-offsec/main/certificates/burp_suite_default.crt" 2>/dev/null || true
+wget -q "https://raw.githubusercontent.com/6a6f6a6f/mobile-offsec/main/certificates/burp_suite_default.crt" || true
 CERTIFICATE_PATH="./burp_suite_default.crt"
 
 if [ "$(adb -s "$ADB_DEVICE" shell getprop ro.build.version.sdk)" != "28" ];then
@@ -40,4 +40,4 @@ sleep 5
 rm "$FILENAME" 2>/dev/null
 rm "$CERTIFICATE_PATH" 2>/dev/null
 
-echo "[+] Done, check if the cert is visible in settings."
+echo "[+] Done, check if the cert is visible on settings."
