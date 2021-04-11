@@ -28,13 +28,23 @@ This repository is focused on Android and iOS, but not only the applications its
 
 ## One-liners
 
-Install default Burp Suite (Professional and Community) certificate on remote AVD instance (considering remote device as `emulator-5554`):
+Install default Burp Suite (Professional and Community) certificate on remote AVD instance (considering remote device as `emulator-5554`) (**Linux and macOS**):
 
 ```sh
 bash <(curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/6a6f6a6f/mobile-offsec/main/installers/avd_setup.sh)
 ```
 
-Start last `frida-server` version for x86 on remote AVD instance:
+
+
+Install default Burp Suite (Professional and Community) certificate on remote AVD instance (considering remote device as `emulator-5554`) (**Windows (or system with PowerShell Core**):
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/6a6f6a6f/mobile-offsec/main/installers/Install-Burp-Android.ps1'))
+```
+
+
+
+Start last `frida-server` version for x86 on remote AVD instance (**Linux and macOS**):
 
 ```sh
 bash <(curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/6a6f6a6f/mobile-offsec/main/installers/setup_frida_x86.sh)
