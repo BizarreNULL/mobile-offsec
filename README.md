@@ -36,7 +36,7 @@ bash <(curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/6a
 
 
 
-Install default Burp Suite (Professional and Community) certificate on remote AVD instance (considering remote device as `emulator-5554`) (**Windows (or system with PowerShell Core**):
+Install default Burp Suite (Professional and Community) certificate on remote AVD instance (considering remote device as `emulator-5554`) (**Windows or system with PowerShell Core**):
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/6a6f6a6f/mobile-offsec/main/installers/Install-Burp-Android.ps1'))
