@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Copyright (C) 2020 6a6f6a6f <jonas.uliana@passwd.com.br>
+# Copyright (C) 2021 6a6f6a6f <jonas.uliana@passwd.com.br>
 
 # Project:     mobile-offsec
 # Repository:  https://github.com/6a6f6a6f/mobile-offsec

@@ -3,7 +3,7 @@
 # Copyright (C) 2021 6a6f6a6f <jonas.uliana@passwd.com.br>
 
 # Project:     mobile-offsec
-# Repository:  https://github.com/BizarreNULL/mobile-offsec
+# Repository:  https://github.com/6a6f6a6f/mobile-offsec
 # License:     WTFPL
 # Description: Install .CRT cert on AVD as system authority
 

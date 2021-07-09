@@ -1,3 +1,20 @@
+<#PSScriptInfo
+
+.COPYRIGHT (c) 2021 6a6f6a6f <jonas.uliana@passwd.com.br>
+
+.LICENSEURI https://github.com/6a6f6a6f/mobile-offsec/blob/main/LICENSE
+
+.PROJECTURI https://github.com/6a6f6a6f/mobile-offsec
+
+#>
+
+<#
+
+.DESCRIPTION
+	This script install Burp Suite on Android emulator.
+
+#>
+
 $CERTIFICATE_PATH = "./burp_suite_default.crt"
 $ADB_DEVICE = "emulator-5554"
 
